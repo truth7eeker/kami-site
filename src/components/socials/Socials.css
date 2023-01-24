@@ -1,0 +1,16 @@
+.socials {
+margin-top: 7em;
+color: white;
+display: flex;
+flex-direction: column;
+gap: 2em;
+}
+
+.socials p {
+    width: 70%;
+}
+
+.socials__icons {
+    display: flex;
+    gap: 1em;
+}

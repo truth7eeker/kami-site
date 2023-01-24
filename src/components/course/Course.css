@@ -1,0 +1,49 @@
+.course {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.course__text {
+    display: flex;
+    gap: 15px;
+}
+
+.course__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+    justify-content: center;
+}
+
+.course img {
+    max-width:500px;
+    max-height:400px;
+    border-radius: 15px;
+}
+
+.course button {
+    background-color: #585be8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    transition: transform .3s;
+}
+
+.course button:hover {
+    background-color: #ed90f6;;
+}
+
+.course button:active {
+    transform: scale(1.2);
+}
+
+.course li, .course ul {
+    font-size: 1.1rem;
+}

@@ -1,0 +1,45 @@
+nav {
+    font-size: 1.2rem;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none; 
+    cursor: pointer;
+    transition: .3s;
+}
+
+nav ul li:hover {
+    color: #585be8;
+
+}
+
+.nav__logo {
+    width: 60px;
+    height: 60px;
+}
+
+.nav__tel {
+    padding: 12px 8px;
+    border-radius: 15px;
+    display: flex;
+    gap: 4px;
+}
+
+.nav__tel:hover  {
+    background-color:#ed90f6;
+}
+
+
+.nav__tel a {
+    text-decoration: none;
+    font-family: 'Comfortaa', 'Open Sans';
+    color: white;
+}
+   

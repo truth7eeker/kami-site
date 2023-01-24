@@ -1,0 +1,48 @@
+
+.courses__heading {
+    margin-bottom: 2.5rem;
+    width: 70%;
+    color: white;
+}
+
+.courses__heading h1 {
+    margin-bottom: 2rem;
+}
+
+.courses__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    gap: 1.5rem;
+}
+
+.courses__course {
+    display: flex;
+    flex-direction: column;
+    max-width:400px;
+    align-items: center;
+    gap: 20px;
+}
+
+.courses__course img {
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.courses__course button {
+    background-color: #585be8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    transition: transform .3s;
+}
+
+.courses__course button:hover {
+    background-color: #ed90f6;;
+}
+
+.courses__course button:active {
+    transform: scale(1.2);
+}
+

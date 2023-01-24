@@ -1,0 +1,42 @@
+.header {
+    height: 100vh;
+} 
+
+.header__intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.intro__text {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
+.intro__text span {
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    color: transparent;
+}
+
+
+.intro__pic {
+    border-radius:15px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.center__name {
+    margin-top: 15px;
+    background-color: #585be8;
+    width:fit-content;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
